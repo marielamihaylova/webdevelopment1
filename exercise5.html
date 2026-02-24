@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title> HTML + JavaScript</title>
+</head>
+<body>
+
+    <h1>This is exercise 4</h1>
+   
+    <script>
+// array of image URL
+var images = ["image1.jpg", "image2.jpg", "image3.jpg"];
+
+// pick a random one
+var randomIndex = Math.floor(Math.random() * images.length);
+
+// set the src attribute of an img element
+document.getElementById("randomImage").src = images[randomIndex];
+
+    </script>
+
+</body>
+</html>
